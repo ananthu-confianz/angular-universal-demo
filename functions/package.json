@@ -1,0 +1,43 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.3.0",
+    "@angular/animations": "5.2.9",
+    "@angular/common": "5.2.9",
+    "@angular/compiler": "5.2.9",
+    "@angular/core": "5.2.9",
+    "@angular/forms": "5.2.9",
+    "@angular/http": "5.2.9",
+    "@angular/platform-browser": "5.2.9",
+    "@angular/platform-browser-dynamic": "5.2.9",
+    "@angular/platform-server": "5.2.9",
+    "@angular/router": "5.2.9",
+    "@ng-bootstrap/ng-bootstrap": "./compiled_modules/@ng-bootstrap/ng-bootstrap",
+    "@nguniversal/express-engine": "5.0.0",
+    "@nguniversal/module-map-ngfactory-loader": "5.0.0",
+    "bootstrap": "4.2.1",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.19",
+    "ts-loader": "3.5.0",
+    "utf-8-validate": "5.0.1",
+    "ws": "6.0.0",
+    "xmlhttprequest": "1.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
